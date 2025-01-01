@@ -1,5 +1,6 @@
 package one.hyro.cargo.packets
 
+import one.hyro.cargo.server.data.Description
 import one.hyro.cargo.server.data.Players
 import one.hyro.cargo.server.data.Version
 

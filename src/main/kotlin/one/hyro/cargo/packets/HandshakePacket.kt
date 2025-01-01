@@ -1,8 +1,10 @@
 package one.hyro.cargo.packets
 
+import one.hyro.cargo.types.VarInt
+
 data class HandshakePacket(
-    val protocolVersion: Int,
+    val protocolVersion: VarInt,
     val serverAddress: String,
-    val serverPort: Int,
-    val nextState: Int
+    val serverPort: UShort,
+    val nextState: VarInt
 )

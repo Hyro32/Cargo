@@ -1,4 +1,4 @@
-package one.hyro.cargo.packets
+package one.hyro.cargo.server.data
 
 import kotlinx.serialization.Serializable
 

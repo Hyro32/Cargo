@@ -6,5 +6,5 @@ import kotlinx.serialization.Serializable
 data class Players(
     val max: Int,
     val online: Int,
-    val sample: List<Player>
+    val sample: List<Sample> = emptyList(),
 )
